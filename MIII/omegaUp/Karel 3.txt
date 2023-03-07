@@ -1,0 +1,16 @@
+class program {
+   void putBeepers ()
+   {
+     if(anyBeepersInBeeperBag)
+     {
+      putbeeper();
+      move();
+      putBeepers();
+    }
+  }
+   program ()
+   {
+    putBeepers();
+     turnoff();
+    }
+ }
