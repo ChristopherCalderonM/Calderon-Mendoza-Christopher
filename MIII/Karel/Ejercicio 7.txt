@@ -1,0 +1,29 @@
+class program {
+    void turnright() {
+     turnleft();
+     turnleft();
+     turnleft();
+    }
+   void pickbeepers()
+     {
+      iterate(7)
+      {
+       turnright();
+       move();
+       turnleft();
+       move();
+       if(nextToABeeper)
+       {
+        pickbeeper();
+     }
+    }
+   }
+   
+   program(){
+    pickbeepers();
+  
+    
+   
+   turnoff();
+  }
+}
