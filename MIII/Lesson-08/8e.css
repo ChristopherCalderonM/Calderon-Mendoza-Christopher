@@ -1,0 +1,43 @@
+.title{
+	font-family: Tahoma;
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+
+.Uber-bar{
+	display: block;	
+	background-color: rgb(240, 240, 240);
+	border: none;
+    font-size: 16;
+	margin-bottom: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 400px;
+}
+
+.requestnow-button{
+    color: white;	 
+    border: none;
+    background-color: black;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: opacity 0.15s;
+}
+
+.schedule-button{
+    margin-left: 5px;   
+    color: black;	 
+    border: none;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+	font-size: 16px;
+	cursor: pointer;
+}
