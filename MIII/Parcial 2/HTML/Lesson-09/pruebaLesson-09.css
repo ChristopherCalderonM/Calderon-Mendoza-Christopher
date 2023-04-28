@@ -1,0 +1,21 @@
+ .video-author,
+ .video-stats{
+    display: inline-block;
+ }
+
+ .video-title{
+    width: 300px;
+ }
+
+ .thumbnail{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    object-position: button;
+   }
+
+ .Name-bar{
+    font-size: 20px;
+    margin-left: 12px;
+    display: block;
+  }  

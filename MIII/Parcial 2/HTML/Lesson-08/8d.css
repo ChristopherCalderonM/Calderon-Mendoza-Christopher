@@ -1,0 +1,38 @@
+ .Name-bar{
+    font-size: 16px;
+    width: 128px;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+  } 
+
+ .Email-bar{
+   display: block;
+   width: 300px;
+   font-size: 16px;
+   border-width: 1px;
+   border-color: rgb(200, 200, 200);
+   border-radius: 8px;
+   margin-bottom: 12px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-right: 16px;
+   padding-left: 16px;
+
+ }
+   .singup-button{
+      color: white;   
+      border: none;
+      background-color: rgb(47, 127, 231);   
+      width: 335px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer; 
+   }
