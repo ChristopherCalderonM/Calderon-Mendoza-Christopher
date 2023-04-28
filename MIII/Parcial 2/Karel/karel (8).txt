@@ -1,0 +1,47 @@
+class program {
+     define turnRight()
+     {
+      iterate(3)
+      turnleft();
+     }
+     define Zanahorias()
+     {
+      iterate(19)
+      pickbeeper();
+     } 
+     define RecogeZanahorias()
+     {
+      turnRight();
+      move();
+      Zanahorias();
+      turnleft();
+      turnleft();
+      move();
+      turnRight();
+      move();
+     }
+     
+     define PlantaZ()
+     {
+      while(rightIsBlocked)
+      {
+       move();
+       }
+       turnRight();
+       move();
+       turnRight();
+      while(frontIsClear)
+      {
+       move();
+       }  
+      } 
+     
+    program () 
+    {
+     RecogeZanahorias();
+     PlantaZ();
+     
+     // TODO poner codigo aqui
+        turnoff();
+    }
+}

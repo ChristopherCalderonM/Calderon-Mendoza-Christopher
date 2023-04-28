@@ -1,0 +1,25 @@
+class program {
+    void recorrido()
+    {
+     if(facingEast && frontIsClear)
+     {
+      move();
+      recorrido();
+      }
+      else
+      {
+       if(frontIsBlocked)
+       {
+        turnleft();
+       while(frontIsClear)
+       {
+        move();
+       } 
+       }
+      }
+     }    
+    program () {
+        recorrido();
+        turnoff();
+    }
+}
