@@ -1,0 +1,20 @@
+class program {
+    define Exam()
+    {
+     if(nextToABeeper)
+     {
+      pickbeeper();
+      Exam();
+      if(frontIsClear)
+      {
+       move();
+       Exam();
+       putbeeper();
+       }
+      }
+     }
+    program () {
+       Exam();
+        turnoff();
+    }
+}

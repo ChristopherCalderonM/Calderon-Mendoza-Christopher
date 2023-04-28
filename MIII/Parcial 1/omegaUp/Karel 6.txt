@@ -1,0 +1,35 @@
+class program {
+       define Avanza(){
+       move();
+       move();
+       move();
+       move();
+       move();
+       move();
+     }
+       define turnright() {
+       turnleft();
+       turnleft();
+       turnleft();
+     }
+       define PickBeepers(){
+       move();
+       pickbeeper();
+       move();
+       pickbeeper();
+       move();
+       pickbeeper();
+       move();
+       pickbeeper();
+       }
+      
+     program () {
+         Avanza();
+         pickbeeper();
+         turnright();
+         PickBeepers();
+         
+         turnoff();
+     }
+ }
+    

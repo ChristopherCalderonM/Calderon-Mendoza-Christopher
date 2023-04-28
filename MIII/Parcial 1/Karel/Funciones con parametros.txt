@@ -1,0 +1,15 @@
+class program {
+       void sigueAvanzando(n)
+       {
+        iterate(n) 
+        {
+         move();
+ 
+     }
+   }
+     program () {
+         sigueAvanzando(5);
+         turnoff();
+     }
+ }
+    

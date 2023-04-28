@@ -1,0 +1,49 @@
+class program {
+    define turnRight()
+    {
+     iterate(3)
+     turnleft();
+    }
+    define findBeeper()
+    {
+     if(notNextToABeeper)
+     {
+      if(frontIsClear&&facingWest)   
+       {  
+        move();
+        if(frontIsBlocked&&facingWest)  
+        turnleft();
+        findBeeper();
+        if(facingNorth)
+        turnRight();
+        move();
+       }
+        if(frontIsClear&&facingSouth)  
+        {
+         move();
+         findBeeper();
+         if(nextToABeeper)
+         PickBeeper();
+         if(facingSouth)
+         {
+          turnLeft();
+          turnLeft();
+          move();
+         }
+        }
+       }
+     program ()
+    {
+     turnRight();
+     move();
+     move();
+     turnleft();
+     findBeeper();
+     turnright();
+     move();
+     move();
+     turnright();
+     putBeeper();    
+     turnoff();
+    }
+   }
