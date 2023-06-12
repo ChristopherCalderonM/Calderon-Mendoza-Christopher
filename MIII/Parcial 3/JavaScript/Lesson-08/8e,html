@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objects</title>
+  </head>
+  <body>
+    <script>
+        function isSameProduct(object1, object2) {
+            if (object1.name === object2.name && object1.price === object2.price)
+            return true;
+             else
+            return false;
+        }
+
+            const product1 = {
+                name: 'apple',
+                price: '30'
+            };
+
+            const product2 = {
+                name: 'apple',
+                price:  '30'
+            };
+
+            const product3 = {
+                name:  'grapes',
+                price:  '80'
+            };
+
+            console.log(isSameProduct(product1,product2));
+            console.log(isSameProduct(product2,product3));
+        
+        </script>
+    </body>
+</html>
